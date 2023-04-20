@@ -1,1 +1,2 @@
-<p>flip-card works!</p>
+<app-form-add (addCard)="addCard($event)"></app-form-add>
+<app-list-cards [data]="data" (deleteCardEvent)="deleteCard($event)"></app-list-cards>
